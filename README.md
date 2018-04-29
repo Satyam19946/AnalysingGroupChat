@@ -8,5 +8,7 @@ Using the Pandas, Numpy and Matplotlib library proceeded to extract the Message 
 
 The code can be re-used very easily.
 1)Email yourself the conversation
+
 2)Open in notepad and then change the format to utf-8 and the file extension to .csv then proceed to change the directory in the Python script.
+
 3)This will give all the details.
