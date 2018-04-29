@@ -6,7 +6,7 @@ The data consisted of ~27k messages out of which 1816 were media messages.
 Using the Pandas, Numpy and Matplotlib library proceeded to extract the Message and the Name of the Sender of Each Message and then use the following lists to find who was the most active on the group. The chat and the images of the data are not posted to protect the privacy of the people involoved. 
 
 
-The code can be re-used very easily. '\n'
+The code can be re-used very easily.
 
 1)Email yourself the conversation
 
