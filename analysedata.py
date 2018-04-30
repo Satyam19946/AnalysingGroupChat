@@ -36,13 +36,13 @@ plt.pie(numbersaspercentage,labels = names,autopct = '%0.2f%%')
 plt.title("Percentage of Messages sent since 26/8/16")
 # plt.show()
 
-
-Senderbefore12 = Sender[0:19465]
+begin12H = Message.index('12H') #Taking this to be  the first message sent on our group after starting 12th.
+Senderbefore12 = Sender[0:begin12H]
 my_databefore12 = pd.DataFrame({'Name':Senderbefore12})
 numberbefore12 = my_databefore12.Name.value_counts()
 namesbefore12 = list(numberbefore12.index)
 
-Senderafter12 = Sender[19465:]
+Senderafter12 = Sender[begin12H:]
 my_dataafter12 = pd.DataFrame({'Name':Senderafter12})
 numberafter12 = my_dataafter12.Name.value_counts()
 namesafter12 = list(numberafter12.index)
