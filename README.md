@@ -12,4 +12,4 @@ The code can be re-used very easily.
 
 2) Open in notepad and then change the format to utf-8 and the file extension to .csv then proceed to change the directory in the Python script.
 
-3) This will give all the details.
+3) A new file with the name of my_data.csv (containing columns of Time, Sender and Message for each text sent on the group) will be created in the directory you currently have your raw emailed conversation.
