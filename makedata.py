@@ -2,8 +2,8 @@
 
 """"BEFORE RUNNING"""
 #1 - Convert your raw archived data to UTF-8 and a csv format. Can be done using notepad. file -> save as -> name.csv and change format to utf-8
-#2 - Open the file in excel and delete the entire column of Dates and shift the cells to the right. This is necessary because Whatsapp messages
-	 #containg enter are taken as new entries and thus the read_csv() function is not able to read them.
+#2 - Open the file in excel and delete the entire column of Dates and shift the cells to the left. This is necessary because Whatsapp messages
+     #containg enter (new lines) are taken as new entries and thus the read_csv() function is not able to read them.
 #Change path file accordingly
 Pathoffile = r"C:\Users\Satyam\Desktop\Programs\Datasets\conversation\AlphaQ"
 
